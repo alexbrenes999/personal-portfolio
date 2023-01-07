@@ -1,0 +1,23 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "Hi I'm Alex! I have created this for everyone to be able to get to know some more about me and my attributes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexbrenes999/personal-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexbrenes999/personal-portfolio/issues"
+  },
+  "homepage": "https://github.com/alexbrenes999/personal-portfolio#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
