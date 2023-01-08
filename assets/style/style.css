@@ -1,4 +1,99 @@
+* {
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+.name {
+    font-family: 'Oswald', sans-serif;
+    font-size: 200px;
+}
+
 .underline999 {
-    text-decoration: underline 3px;
+    text-decoration: underline 5px;
     text-underline-offset: 0.8em;
 } 
+
+.spacer {
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.spacer2 {
+    aspect-ratio: 960/200;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.spacer1 {
+    aspect-ratio: 960/100;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.newspk {
+    background-image: url(./newspk.svg);
+}
+
+.navwv {
+    background-image: url(./navwv.svg);
+}
+
+.navspk {
+    background-image: url(./navsteps.svg);
+}
+
+.spikeu {
+    background-image: url(./spike\ up.svg);
+}
+
+.spiked {
+    background-image: url(./spike\ down.svg);
+}
+
+.layer1 {
+    background-image: url(./layered-waves-haikei\ \(1\).svg);
+}
+
+.lookup {
+    background-image: url(./look\ up.svg);
+}
+
+.lookdown {
+    background-image: url(./look\ down.svg);
+}
+
+.bg {
+    background-color: #121212;
+}
+
+.drkb {
+    background-color: #194A7A;
+}
+
+
+/* Classes for the top page wave */
+.custom-shape-divider-top-1673153839 {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1673153839 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 90px;
+}
+
+.custom-shape-divider-top-1673153839 .shape-fill {
+    fill: #10b981;
+}
