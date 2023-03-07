@@ -96,3 +96,16 @@
 .custom-shape-divider-top-1673153839 .shape-fill {
     fill: #10b981;
 }
+
+@media screen and (max-width: 768px) {
+    .name {
+        font-size: 120px;
+    }
+
+    #spiel {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+}
